@@ -1,0 +1,37 @@
+"use strict";
+//1) Annotation (anotação)
+// usada para inferir o tipo da variável através da anotação (variavel: tipo)
+const produto = "Livro"; // string
+const preco = 200; // number
+const carro = {
+    marca: "Audi",
+    portas: 5
+};
+console.log(carro.marca);
+//2) Inference (Inferência)
+// O TS consegue inferir o tipo de dado em expressões/variáveis diretas, que recebem um tipo de dado inicial
+// Nesse caso, não é necessário fazer a anotação do dado
+const produto2 = "Livro";
+const preco2 = 400;
+const carro2 = {
+    marca: "Audi",
+    portas: 5,
+    preco: 300000
+};
+const barato = carro2.preco < 100000 ? true : "É caro";
+console.log(barato);
+//3) Funções
+const videoGame = {
+    nome: "Nintendo",
+    preco: "2000"
+};
+const transformarPreco = (objeto) => {
+    return +objeto.preco;
+};
+console.log(typeof transformarPreco(videoGame));
+/// Exercício 1 - conserte a função com TypeScript
+function normalizarTexto(texto) {
+    return texto.trim().toLowerCase();
+}
+console.log(normalizarTexto("  Paulo Eduardo       "));
+/// Exercício 2 - conserte a função com TypeScript
