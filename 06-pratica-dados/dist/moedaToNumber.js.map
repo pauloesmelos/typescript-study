@@ -1,0 +1,1 @@
+{"version":3,"file":"moedaToNumber.js","sourceRoot":"","sources":["../src/moedaToNumber.ts"],"names":[],"mappings":"AAAA;;;GAGG;AACH,MAAM,CAAC,OAAO,UAAU,aAAa,CAAC,KAAa;IAC/C,IAAG,KAAK,KAAK,GAAG;QACZ,OAAO,CAAC,CAAC;;QAET,OAAO,MAAM,CAAC,KAAK,CAAC,UAAU,CAAC,GAAG,EAAE,EAAE,CAAC,CAAC,UAAU,CAAC,GAAG,EAAC,GAAG,CAAC,CAAC,CAAC;AACrE,CAAC"}
